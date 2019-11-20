@@ -1,0 +1,27 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+<html>
+   <head>
+      <title>JavaScript Prime</title>
+   </head>
+
+   <body>
+      <script>
+         for (var limit = 1; limit <= 20; limit++) {
+            var a = false;
+            for (var i = 2; i <= limit; i++) {
+               if (limit%i===0 &amp;&amp; i!==limit) {
+                  a = true;
+               }
+            }
+            if (a === false) {
+               document.write("<br>"+limit);
+            }
+         }
+      </script>
+   </body>
+</html>
+
